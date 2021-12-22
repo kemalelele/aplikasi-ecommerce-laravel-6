@@ -45,7 +45,7 @@
 							<h2>Kategori PLN GROUP</h2>
 							<p>shop now</p>
 						</div>
-						<a class="hot_deal_link" href="http://localhost/aplikasi-ecommerce-laravel-6-master/public/product"></a>
+						<a class="hot_deal_link" href="http://localhost/aplikasi%20ecommerce%20laravel-6/public/product"></a>
 					</div>
 				</div>
 			</div>
