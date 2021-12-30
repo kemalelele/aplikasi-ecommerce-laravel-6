@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'admin@daengweb.id'),
-        'name' => env('MAIL_FROM_NAME', 'DW Ecommerce'),
+        'address' => env('MAIL_FROM_ADDRESS', 'cusoljakban.iconplus@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Admin ELECTRON'),
     ],
 
     /*

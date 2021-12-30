@@ -87,14 +87,14 @@
                             </select>
                             <p class="text-danger">{{ $errors->first('district_id') }}</p>
                         </div>
-                        <div class="col-md-12 form-group p_star">
+                        <!-- <div class="col-md-12 form-group p_star">
                             <label for="">Kurir</label>
                             <input type="hidden" name="weight" id="weight" value="{{ $weight }}">
                             <select class="form-control" name="courier" id="courier" required>
                                 <option value="">Pilih Kurir</option>
                             </select>
                             <p class="text-danger">{{ $errors->first('courier') }}</p>
-                        </div>
+                        </div> -->
                     
 					</div>
 					<div class="col-lg-4">
@@ -121,18 +121,18 @@
                                         <span>Rp {{ number_format($subtotal) }}</span>
 									</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="#">Pengiriman
 										<span id="ongkir">Rp 0</span>
 									</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="#">Total
 										<span id="total">Rp {{ number_format($subtotal) }}</span>
 									</a>
 								</li>
 							</ul>
-                            <button class="main_btn">Bayar Pesanan</button>
+                            <button class="main_btn">Ajukan Penawaran</button>
                             </form>
 						</div>
 					</div>
@@ -176,32 +176,32 @@
             });
         })
 
-        $('#district_id').on('change', function() {
-            $('#courier').empty()
-            $('#courier').append('<option value="">Loading...</option>')
-            $.ajax({
-                url: "{{ url('/api/cost') }}",
-                type: "POST",
-                data: { destination: $(this).val(), weight: $('#weight').val() },
-                success: function(html){
-                    $('#courier').empty()
-                    $('#courier').append('<option value="">Pilih Kurir</option>')
-                    $.each(html.data.results, function(key, item) {
-                        let courier = item.courier + ' - ' + item.service + ' (Rp '+ item.cost +')'
-                        let value = item.courier + '-' + item.service + '-'+ item.cost
-                        $('#courier').append('<option value="'+value+'">' + courier + '</option>')
-                    })
-                }
-            });
-        })
+        // $('#district_id').on('change', function() {
+        //     $('#courier').empty()
+        //     $('#courier').append('<option value="">Loading...</option>')
+        //     $.ajax({
+        //         url: "{{ url('/api/cost') }}",
+        //         type: "POST",
+        //         data: { destination: $(this).val(), weight: $('#weight').val() },
+        //         success: function(html){
+        //             $('#courier').empty()
+        //             $('#courier').append('<option value="">Pilih Kurir</option>')
+        //             $.each(html.data.results, function(key, item) {
+        //                 let courier = item.courier + ' - ' + item.service + ' (Rp '+ item.cost +')'
+        //                 let value = item.courier + '-' + item.service + '-'+ item.cost
+        //                 $('#courier').append('<option value="'+value+'">' + courier + '</option>')
+        //             })
+        //         }
+        //     });
+        // })
 
-        $('#courier').on('change', function() {
-            let split = $(this).val().split('-')
-            $('#ongkir').text('Rp ' + split[2])
+        // $('#courier').on('change', function() {
+        //     let split = $(this).val().split('-')
+        //     $('#ongkir').text('Rp ' + split[2])
 
-            let subtotal = "{{ $subtotal }}"
-            let total = parseInt(subtotal) + parseInt(split['2'])
-            $('#total').text('Rp' + total)
-        })
+        //     let subtotal = "{{ $subtotal }}"
+        //     let total = parseInt(subtotal) + parseInt(split['2'])
+        //     $('#total').text('Rp' + total)
+        // })
     </script>
 @endsection

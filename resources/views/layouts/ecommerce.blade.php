@@ -42,7 +42,7 @@
 		<div class="top_menu row m0">
 			<div class="container-fluid">
 				<div class="float-left">
-					<p>Call Us: 012 44 5698 7456 896</p>
+					<p>Call Us: 021 – 295 32400</p>
 				</div>
 				<div class="float-right">
 					<ul class="right_side">
@@ -117,7 +117,7 @@
     @yield('content')
     
     <!--================ Subscription Area ================-->
-	<section class="subscription-area section_gap">
+	<!-- <section class="subscription-area section_gap">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -137,14 +137,14 @@
                             <!-- <div style="position: absolute; left: -5000px;">
                                 <input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
                             </div> -->
-                            <button type="submit" class="newsl-btn">Get Started</button>
+                            <!-- <button type="submit" class="newsl-btn">Get Started</button>
                             <div class="info"></div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --> -->
     <!--================ End Subscription Area ================-->
 
 	<!--================ start footer Area  =================-->

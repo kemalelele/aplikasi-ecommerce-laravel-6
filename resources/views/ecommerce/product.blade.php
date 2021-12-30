@@ -1,7 +1,7 @@
 @extends('layouts.ecommerce')
 
 @section('title')
-    <title>Jual Produk Fashion - DW Ecommerce</title>
+    <title>Produk PLN GROUP</title>
 @endsection
 
 @section('content')
@@ -72,7 +72,7 @@
                     <div class="left_sidebar_area">
                         <aside class="left_widgets cat_widgets">
                             <div class="l_w_title">
-                                <h3>Kategori Produk</h3>
+                                <h3>Perusahaan</h3>
                             </div>
                             <div class="widgets_inner">
                                 <ul class="list" >
