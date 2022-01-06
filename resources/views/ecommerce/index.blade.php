@@ -1,7 +1,7 @@
 @extends('layouts.ecommerce')
 
 @section('title')
-    <title>E-commerce</title>
+    <title>ELECTRON</title>
 @endsection
 
 @section('content')
@@ -12,8 +12,8 @@
 			<div class="container">
 				<div class="banner_content row">
 					<div class="offset-lg-2 col-lg-8">
-						<h3>SiPP
-							<br />Sistem Penjualan PLN</h3>
+						<h3>ELECTRON
+							<br />ELECTRICAL,INTERNET and SOLUTION</h3>
 						<p>web penjualan satu pintu pln.</p>
 						<!-- <a class="white_bg_btn" href="#">View Collection</a> -->
 					</div>
@@ -74,8 +74,7 @@
 										<i class="lnr lnr-cart"></i>
 									</a>
 								</div>
-							</div>
-                            <a href="{{ url('/product/' . $row->slug) }}">
+					LECTRON                            <a href="{{ url('/product/' . $row->slug) }}">
                                 <h4>{{ $row->name }}</h4>
 							</a>
                             <h5>Rp {{ number_format($row->price) }}</h5>

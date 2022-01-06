@@ -231,7 +231,7 @@
 			<div class="row footer-bottom d-flex justify-content-between align-items-center">
 				<p class="col-lg-12 footer-text text-center">
                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
-                    All rights reserved | This template is made with 
+                    All rights reserved | Made with 
                     <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="" target="_blank">CUSOL JAKBAN</a>
 				</p>
 			</div>
