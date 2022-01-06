@@ -29,7 +29,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="hot_deal_box">
-						<img class="img-fluid" src="{{ asset('ecommerce/img/product/hot_deals/coming-soon.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ asset('public/ecommerce/img/product/hot_deals/coming-soon.jpg') }}" alt="">
 						<div class="content">
 							<h2>Kategori PLN</h2>
 							<p>shop now</p>
@@ -40,7 +40,7 @@
 
 				<div class="col-lg-6">
 					<div class="hot_deal_box">
-						<img class="img-fluid" src="{{ asset('ecommerce/img/product/hot_deals/deal1.jpg') }}" alt="">
+						<img class="img-fluid" src="{{ asset('public/ecommerce/img/product/hot_deals/deal1.jpg') }}" alt="">
 						<div class="content">
 							<h2>Kategori PLN GROUP</h2>
 							<p>shop now</p>
@@ -68,7 +68,7 @@
 					<div class="col col1">
 						<div class="f_p_item">
 							<div class="f_p_img">
-                                <img class="img-fluid" src="{{ asset('storage/products/' . $row->image) }}" alt="{{ $row->name }}">
+                                <img class="img-fluid" src="{{ asset('public/storage/products/' . $row->image) }}" alt="{{ $row->name }}">
 								<div class="p_icon">
 									<a href="{{ url('/product/' . $row->slug) }}">
 										<i class="lnr lnr-cart"></i>

@@ -8,17 +8,17 @@
     
     @yield('title')
     
-	<link rel="stylesheet" href="{{ asset('ecommerce/css/bootstrap.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/linericon/style.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/css/font-awesome.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/owl-carousel/owl.carousel.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/lightbox/simpleLightbox.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/nice-select/css/nice-select.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/animate-css/animate.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/vendors/jquery-ui/jquery-ui.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/css/bootstrap.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/linericon/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/css/font-awesome.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/owl-carousel/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/lightbox/simpleLightbox.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/nice-select/css/nice-select.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/animate-css/animate.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/vendors/jquery-ui/jquery-ui.css') }}">
 	
-	<link rel="stylesheet" href="{{ asset('ecommerce/css/style.css') }}">
-	<link rel="stylesheet" href="{{ asset('ecommerce/css/responsive.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/css/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/ecommerce/css/responsive.css') }}">
 
 	<style>
 		.menu-sidebar-area {
@@ -62,7 +62,7 @@
 				<div class="container-fluid">
 					<!-- Brand and toggle get grouped for better mobile display -->
                     <a class="navbar-brand logo_h" href="{{ url('/') }}">
-						<img src="{{ asset('ecommerce/img/logo/logo1.png') }}" alt="">
+						<img src="{{ asset('public/ecommerce/img/logo/logo1.png') }}" alt="">
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 					 aria-expanded="false" aria-label="Toggle navigation">
@@ -181,28 +181,28 @@
 						<h6 class="footer_title">Instagram Feed</h6>
 						<ul class="list instafeed d-flex flex-wrap">
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-01.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-01.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-02.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-02.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-03.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-03.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-04.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-04.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-05.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-05.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-06.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-06.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-07.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-07.jpg') }}" alt="">
 							</li>
 							<li>
-								<img src="{{ asset('ecommerce/img/instagram/Image-08.jpg') }}" alt="">
+								<img src="{{ asset('public/ecommerce/img/instagram/Image-08.jpg') }}" alt="">
 							</li>
 						</ul>
 					</div>
@@ -239,21 +239,21 @@
 	</footer>
 	<!--================ End footer Area  =================-->
 
-	<script src="{{ asset('ecommerce/js/jquery-3.2.1.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/popper.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/stellar.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/lightbox/simpleLightbox.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/isotope/isotope-min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/jquery.ajaxchimp.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/flipclock/timer.js') }}"></script>
-	<script src="{{ asset('ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/mail-script.js') }}"></script>
-	<script src="{{ asset('ecommerce/js/theme.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/jquery-3.2.1.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/popper.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/stellar.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/lightbox/simpleLightbox.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/nice-select/js/jquery.nice-select.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/isotope/imagesloaded.pkgd.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/isotope/isotope-min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/owl-carousel/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/jquery.ajaxchimp.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/counter-up/jquery.waypoints.min.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/flipclock/timer.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/vendors/counter-up/jquery.counterup.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/mail-script.js') }}"></script>
+	<script src="{{ asset('public/ecommerce/js/theme.js') }}"></script>
 
 	@yield('js')
 </body>

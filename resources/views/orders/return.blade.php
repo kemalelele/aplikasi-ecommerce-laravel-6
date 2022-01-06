@@ -66,7 +66,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h4>Foto Barang Return</h4>
-                                    <img src="{{ asset('storage/return/' . $order->return->photo) }}" class="img-responsive" height="200" alt="">
+                                    <img src="{{ asset('public/storage/return/' . $order->return->photo) }}" class="img-responsive" height="200" alt="">
                                 </div>
                             </div>
                         </div>

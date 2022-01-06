@@ -57,7 +57,7 @@
                                         @forelse ($product as $row)
                                         <tr>
                                             <td>
-                                                <img src="{{ asset('storage/products/' . $row->image) }}" width="100px" height="100px" alt="{{ $row->name }}">
+                                                <img src="{{ asset('public/storage/products/' . $row->image) }}" width="100px" height="100px" alt="{{ $row->name }}">
                                             </td>
                                             <td>
                                                 <strong>{{ $row->name }}</strong><br>

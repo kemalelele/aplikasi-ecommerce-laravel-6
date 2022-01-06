@@ -4,7 +4,7 @@
     </button>
     <a class="navbar-brand" href="#">
         <img class="navbar-brand-full" src="https://www.iconpln.co.id/wp-content/uploads/2017/09/logo.png" width="89" height="25" alt="DW Ecommerce">
-        <img class="navbar-brand-minimized" src="{{ asset('assets/dw-01/img/brand/sygnet.svg') }}" width="30" height="30" alt="DW Ecommerce">
+        <img class="navbar-brand-minimized" src="{{ asset('public/assets/dw-01/img/brand/sygnet.svg') }}" width="30" height="30" alt="DW Ecommerce">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                <img class="img-avatar" src="{{ asset('assets/img/avatars/6.jpg') }}" alt="admin@bootstrapmaster.com">
+                <img class="img-avatar" src="{{ asset('public/assets/img/avatars/6.jpg') }}" alt="admin@bootstrapmaster.com">
             </a>
         <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">

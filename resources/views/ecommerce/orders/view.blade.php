@@ -99,8 +99,8 @@
                                             <td>Bukti Transfer</td>
                                             <td></td>
                                             <td>
-                                                <img src="{{ asset('storage/payment/' . $order->payment->proof) }}" width="50px" height="50px" alt="">
-                                                <a href="{{ asset('storage/payment/' . $order->payment->proof) }}" target="_blank">Lihat Detail</a>
+                                                <img src="{{ asset('public/storage/payment/' . $order->payment->proof) }}" width="50px" height="50px" alt="">
+                                                <a href="{{ asset('public/storage/payment/' . $order->payment->proof) }}" target="_blank">Lihat Detail</a>
                                             </td>
                                         </tr>
                                     </table>

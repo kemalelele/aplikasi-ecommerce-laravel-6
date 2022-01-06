@@ -88,7 +88,7 @@
                                         </tr>
                                         <tr>
                                             <th>Bukti Pembayaran</th>
-                                            <td><a target="_blank" href="{{ asset('storage/payment/' . $order->payment->proof) }}">Lihat</a></td>
+                                            <td><a target="_blank" href="{{ asset('public/storage/payment/' . $order->payment->proof) }}">Lihat</a></td>
                                         </tr>
                                         <tr>
                                             <th>Status</th>
