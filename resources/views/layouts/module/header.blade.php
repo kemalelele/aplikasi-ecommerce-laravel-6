@@ -2,10 +2,11 @@
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="http://localhost/aplikasi%20ecommerce%20laravel-6/public/administrator/home">
         <img class="navbar-brand-full" src="https://www.iconpln.co.id/wp-content/uploads/2017/09/logo.png" width="89" height="25" alt="DW Ecommerce">
         <img class="navbar-brand-minimized" src="{{ asset('public/assets/dw-01/img/brand/sygnet.svg') }}" width="30" height="30" alt="DW Ecommerce">
     </a>
+
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
     </button>

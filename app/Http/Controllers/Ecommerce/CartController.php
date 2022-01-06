@@ -111,7 +111,7 @@ class CartController extends Controller
             'province_id' => 'required|exists:provinces,id',
             'city_id' => 'required|exists:cities,id',
             'district_id' => 'required|exists:districts,id',
-            'courier' => 'required'
+            // 'courier' => 'required'
         ]);
 
         DB::beginTransaction();
@@ -152,8 +152,8 @@ class CartController extends Controller
                 'customer_address' => $request->customer_address,
                 'district_id' => $request->district_id,
                 'subtotal' => $subtotal,
-                'cost' => $shipping[2],
-                'shipping' => $shipping[0] . '-' . $shipping[1],
+                // 'cost' => $shipping[2],
+                // 'shipping' => $shipping[0] . '-' . $shipping[1],
                 'ref' => $affiliate != '' && $explodeAffiliate[0] != auth()->guard('customer')->user()->id ? $affiliate:NULL
             ]);
 
